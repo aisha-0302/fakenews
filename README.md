@@ -72,11 +72,6 @@ The front end of the website was integrated with the prediction code using a pyt
 - Web Scraping: if a user enters a URL, the goose() object will then scrape all necessary text which is then sent for encoding and prediction as discussed in 3 and 4. 
 - Contact Us: This code snippet looks for inputs in the contact us form, then sends an E-Mail to all the developers of this project using the flask_mail object.
 
-### Analysing and visualising trends on the website
-
-To introduce users to various trends observed in the spread of fake news, data was obtained from statistical websites which was then visualised using matplotlib and seaborn python modules. These graphs were saved and used by the front end of the website.
-
-You can view the file here: [https://github.com/Radhasingh95/FakeNewsProject/blob/main/Statistics.ipynb]
 
  
 ## How to Run the Code
